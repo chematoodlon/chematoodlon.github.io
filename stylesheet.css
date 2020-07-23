@@ -1,0 +1,26 @@
+body{
+	overflow-x:hidden;
+	scroll-behavior:smooth;
+	color: #003366;
+	background-color: #CCCCCC;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+	font-family: 'Leelawadee UI';
+	src: url('LeelaUI.ttf') format('truetype');
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Leelawadee UI';
+	src: url('LeelaUIb.ttf') format('truetype');
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Leelawadee UI';
+	src: url('LeelaUIsl.ttf') format('truetype');
+	font-weight: 200;
+}
