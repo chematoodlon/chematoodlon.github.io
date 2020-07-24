@@ -64,3 +64,13 @@ for(var i=0;i<aj.length;i++){
 		}
 	}
 	})
+	
+
+//Setting height of footer:
+var hr = document.getElementById("header");
+var me = document.getElementById("middle");
+var fr = document.getElementById("footer");
+var frh = hr.getBoundingClientRect().height + me.getBoundingClientRect().height +15*vw/100;
+var frhpx = frh + "px";
+
+fr.style.top = frhpx;
