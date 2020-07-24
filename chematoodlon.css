@@ -61,7 +61,7 @@ display:none;
 		position:relative;
 		height:13.52vw;
 		width:88vw;	
-		font-size:9vw;
+		font-size:9.5vw;
 		font-weight:bold;
 		}
 			#hrp1{
@@ -124,7 +124,7 @@ display:none;
 					border-radius: 0 0 0 2vw;
 					box-shadow: 0 0 1vw 0vw rgba(0,51,102,0.5);
 					font-size:3.556vw;
-					font-weight:500;
+					font-weight:bold;
 					z-index: 0;
 					}
 						#mliButtonsM li{
@@ -162,7 +162,7 @@ display:none;
 		width:88vw;
 		font-size:3.556vw;		
 		letter-spacing: -0.05vw;
-		font-weight:200;
+		font-weight:500;
 		border-radius:2vw;		
 		background-color: rgb(0,0,0,0.05);
 		padding:2vw;
@@ -180,7 +180,7 @@ display:none;
 			background-color: rgba(0,0,0,0.05); 
 			font-size:5.334vw; 
 			font-style: normal; 
-			font-weight:200;
+			font-weight:500;
 			text-align:right; 
 			color:#003366;
 			}
@@ -188,8 +188,8 @@ display:none;
 			margin-top:0vw;
 			}
 			#mttp2{font-size:3.556vw;}
-			#mttsp1{font-weight:500;}
-			#mttsp2{font-weight:500;}
+			#mttsp1{font-weight:bold;}
+			#mttsp2{font-weight:bold;}
 		#middleTextMain{
 		display:block;
 		position:relative;
@@ -198,7 +198,7 @@ display:none;
 		width:88vw;
 		font-size:3.556vw;		
 		letter-spacing: -0.05vw;
-		font-weight:200;
+		font-weight:500;
 		padding:2vw;
 		padding-bottom:0vw!important; 
 		box-sizing:border-box;
@@ -214,11 +214,11 @@ display:none;
 			background-color: rgba(0,0,0,0.1); 
 			font-size:4.445vw; 
 			font-style: normal; 
-			font-weight:200; 
+			font-weight:500; 
 			letter-spacing:0.5vw; 
 			color:#003366;	
 			}
-			#mtmsp41, #mtmsp42, #mtmsp43, #mtmsp44, #mtmsp45, #mtmsp51, #mtmsp52{font-weight:500;}
+			#mtmsp41, #mtmsp42, #mtmsp43, #mtmsp44, #mtmsp45, #mtmsp51, #mtmsp52{font-weight:bold;}
 			#mtmsp53{font-size:5.334vw;}
 			
 			#jointheteam{
@@ -229,7 +229,7 @@ display:none;
 			height:46vw;
 			font-size:3.556vw;		
 			letter-spacing: -0.05vw;
-			font-weight:200;
+			font-weight:500;
 			border-radius:2vw;		
 			background-color: rgb(0,0,0,0.05);
 			padding:2vw;
