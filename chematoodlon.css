@@ -188,6 +188,7 @@ display:none;
 			}
 			#mttp2{font-size:3.556vw;}
 			#mttsp1{font-weight:bold;}
+			#mttsp15{font-weight:bold;}
 			#mttsp2{font-weight:bold;}
 		#middleTextMain{
 		display:block;
@@ -383,6 +384,7 @@ display:none;
 			}
 			#mttp2{font-size:2vw;}
 			#mttsp1{font-weight:500;}
+			#mttsp15{font-weight:500;}
 			#mttsp2{font-weight:500;}
 		#middleTextMain{
 		display:block;
