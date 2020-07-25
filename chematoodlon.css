@@ -61,7 +61,7 @@ display:none;
 		position:relative;
 		height:14vw;
 		width:88vw;	
-		font-size:9.5vw;
+		font-size:9.2vw;
 		font-weight:bold;
 		}
 			#hrp1{
@@ -105,7 +105,7 @@ display:none;
 					width:4.5vw;
 					cursor:pointer;
 					margin-right:6vw;
-					z-index:0;
+					z-index:1;
 					}
 					
 					#mliButtonsM{
