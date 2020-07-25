@@ -115,7 +115,7 @@ var hr = document.getElementById("header");
 var me = document.getElementById("middle");
 var fr = document.getElementById("footer");
 if(vw>769){var frhy = 15*vw/100}
-else{var frhy = 34*vw/100}
+else{var frhy = 30*vw/100}
 var frh = hr.getBoundingClientRect().height + me.getBoundingClientRect().height + frhy;
 var frhpx = frh + "px";
 
