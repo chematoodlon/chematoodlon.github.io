@@ -121,7 +121,10 @@ display:none;
 		z-index:0;
 		}
 			#cloudsTR{
-			transform: translate(170vw,-100vw);
+			transform: translate(170vw,-30vw);
+			}
+			#cloudsTL{
+			transform: translate(0vw,30vw);
 			}
 		#babesB2{
 		display:block;
@@ -157,7 +160,7 @@ display:none;
 		display:block;
 		position:absolute;
 		width:55vw;
-		top:27vw;
+		top:5vw;
 		left:20vw;
 		z-index:3;
 		}
@@ -167,7 +170,7 @@ display:none;
 		position:absolute;
 		align-items:center;
 		width:100vw;
-		top:135vw;
+		top:128vw;
 		z-index:3;
 		}
 			#chematoodlonLogo{
