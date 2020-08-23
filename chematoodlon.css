@@ -50,7 +50,7 @@ display:none;
 	width: 100vw;
 	height:100vh;
 	justify-content:center;
-	background: center no-repeat rgba(255,225,165);
+	background: center no-repeat rgb(255,229,178);
 	z-index:9999;
 	}
 
@@ -72,9 +72,9 @@ display:none;
 			}
 			#lsClouds{
 			display:block;
-			animation: lswMove 1s infinite ease-out;
+			animation: lscMove 1s infinite ease-out;
 			}
-			@keyframes lswMove{
+			@keyframes lscMove{
 				0%{
 					transform: translate(0,0) scale(1,1);
 					opacity:100%;
@@ -104,6 +104,135 @@ display:none;
 					transform: translate(0,0) scale(1,1);					
 				}
 			}
+			
+			
+#mainBody{
+	width:100vw;
+	}
+	#mainBodyBackground{
+		
+	}
+		#backgroundSVG{
+		display:block;
+		position:absolute;
+		top:0vw;
+		width:100%;
+		height:inherit;
+		z-index:0;
+		}
+			#cloudsTR{
+			transform: translate(170vw,-100vw);
+			}
+		#babesB2{
+		display:block;
+		position:absolute;
+		width:100vw;
+		top:102vw;
+		z-index:1;
+		}
+		#babesB1{
+		display:block;
+		position:absolute;
+		width:100vw;
+		top:115vw;
+		z-index:1;
+		}
+		
+		#shipSVG{
+		display:block;
+		position:absolute;
+		width:75vw;
+		top:60vw;
+		left:5vw;
+		z-index:2;
+		}
+		#babesF{
+		display:block;
+		position:absolute;
+		width:100vw;
+		top:120vw;
+		z-index:3;
+		}
+		#deptChe{
+		display:block;
+		position:absolute;
+		width:55vw;
+		top:27vw;
+		left:20vw;
+		z-index:3;
+		}
+		#chLogotext{
+		display:flex;
+		flex-direction:column;
+		position:absolute;
+		align-items:center;
+		width:100vw;
+		top:135vw;
+		z-index:3;
+		}
+			#chematoodlonLogo{
+			display:block;
+			position:relative;			
+			width:70vw;			
+			filter:invert(100%) drop-shadow(0vw 0vw 2vw #00003f) drop-shadow(0vw 0vw 1vw #000000);
+			z-index:3;
+			}
+			#ftDusktnDawn{
+			display:block;
+			position:relative;
+			top:3.5vw;
+			color:#ffffff;
+			font-size:3vw;
+			font-style:italic;
+			filter:drop-shadow(0vw 0vw 2vw #00003f) drop-shadow(0vw 0vw 2vw #00003f) drop-shadow(0vw 0vw 1vw #000000);
+			z-index:3;
+			}
+			
+			#content{
+			display:block;
+			position:absolute;
+			top:200vw;
+			}
+				#aboutUs{
+				display:flex;
+				flex-direction:column;
+				list-style-type:none;
+				margin:0;
+				padding:0;
+				width:100vw;
+				align-items:center;
+				}
+					#auheading{
+					display:flex;
+					align:center;
+					width:80vw;
+					color:#ffffff;
+					font-family:'Mandala';
+					font-size:7vw;
+					letter-spacing:0.8vw;
+					}
+						#hWheel{}
+							#hWheelSVG{
+							width:8vw;
+							height:8vw;
+							filter: grayscale(100%) contrast(100%) invert(100%);
+							animation: hwRotate 50s infinite linear;
+							transform-origin:50% 50%;
+							}
+							@keyframes hwRotate{
+							from{
+							transform: rotate(0deg);
+							}
+							to{
+							transform: rotate(360deg);
+							}
+							}
+								#hWheelSVGg{}
+					#auText{
+					width:80vw;
+					color:#ffffff;
+					}
+	
 	
 	
 }
@@ -131,7 +260,7 @@ display:none;
 	width: 100vw;
 	height: 100vh;
 	justify-content:center;
-	background: center no-repeat rgba(255,225,165);
+	background: center no-repeat rgb(255,229,178);
 	}
 
 		#loaderSVG{
