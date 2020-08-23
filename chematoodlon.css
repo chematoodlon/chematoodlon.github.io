@@ -159,9 +159,9 @@ display:none;
 		#deptChe{
 		display:block;
 		position:absolute;
-		width:55vw;
+		width:40vw;
 		top:5vw;
-		left:20vw;
+		left:30vw;
 		z-index:3;
 		}
 		#chLogotext{
@@ -170,22 +170,22 @@ display:none;
 		position:absolute;
 		align-items:center;
 		width:100vw;
-		top:128vw;
+		top:130vw;
 		z-index:3;
 		}
 			#chematoodlonLogo{
 			display:block;
 			position:relative;			
-			width:70vw;			
+			width:60vw;			
 			filter:invert(100%) drop-shadow(0vw 0vw 2vw #00003f) drop-shadow(0vw 0vw 1vw #000000);
 			z-index:3;
 			}
 			#ftDusktnDawn{
 			display:block;
 			position:relative;
-			top:3.5vw;
+			top:3vw;
 			color:#ffffff;
-			font-size:3vw;
+			font-size:2.7vw;
 			font-style:italic;
 			filter:drop-shadow(0vw 0vw 2vw #00003f) drop-shadow(0vw 0vw 2vw #00003f) drop-shadow(0vw 0vw 1vw #000000);
 			z-index:3;
