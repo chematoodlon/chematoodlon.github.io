@@ -7,12 +7,10 @@ window.onload = function(){
 	one();
 }
 function one(){
-	setTimeout(function(){
 		lr.style.opacity="0";
 		setTimeout(function(){
 			lr.style.display="none";
 		},2000);
-		},5000);
 }
 
 
