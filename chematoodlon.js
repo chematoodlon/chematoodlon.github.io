@@ -1,4 +1,4 @@
-var by = document.getElementsByTagName('body')[0];
+/*var by = document.getElementsByTagName('body')[0];
 var lr = document.getElementById("loader");
 
 var n,lt;
@@ -7,7 +7,7 @@ window.onload = function(){
 	if(lt>=8000){n=1;}
 	else if(lt<8000){n=0;}
 	one();
-}
+}*/
 /*function one(){
 	if(n==0){
 		setTimeout(function(){
