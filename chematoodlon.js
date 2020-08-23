@@ -8,8 +8,8 @@ window.onload = function(){
 }
 function one(){
 		lr.style.opacity="0";
+		by.style.backgroundColor="#46215B";
 		setTimeout(function(){
-			by.style.backgroundColor="#46215B";
 			lr.style.display="none";
 		},2000);
 }
