@@ -51,6 +51,8 @@ display:none;
 	height:100vh;
 	justify-content:center;
 	background: center no-repeat rgb(255,229,178);
+	opacity:1;
+	transition: opacity 2s ease;
 	z-index:9999;
 	}
 
@@ -194,7 +196,7 @@ display:none;
 			#content{
 			display:block;
 			position:absolute;
-			top:200vw;
+			top:198vw;
 			}
 				#aboutUs{
 				display:flex;
@@ -219,7 +221,7 @@ display:none;
 							width:8vw;
 							height:8vw;
 							filter: grayscale(100%) contrast(100%) invert(100%);
-							animation: hwRotate 50s infinite linear;
+							animation: hwRotate 20s infinite linear;
 							transform-origin:50% 50%;
 							}
 							@keyframes hwRotate{
