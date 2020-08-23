@@ -193,6 +193,82 @@ display:none;
 			z-index:3;
 			}
 			
+			#headerMenu{
+			display:block;
+			position:absolute;
+			left:85vw;
+			top:5vw;
+			z-index:10;
+			}
+				#menuButtonM{
+				display:block;
+				visibility:visible;
+				opacity:1;
+				margin-top:0vw;
+				width:8vw;
+				cursor:pointer;
+				-webkit-transition: visibility 0.1s ease, opacity 0.1s ease;
+				transition: visibility 0.1s ease, opacity 0.1s ease;
+				}
+				
+				#mtItemsM{
+				display:none;
+				visibility:hidden;
+				z-index:10;	
+				flex-direction:column;
+				align-items:flex-end;
+				margin-top:-6vw;
+				margin-left:-50vw;		
+				}
+					#menuCloseButton{
+					display:flex;
+					align-items:center;
+					z-index:12;
+					}
+						#menuCloseButtonM{
+						margin-top:2vw;
+						width:6vw;
+						cursor:pointer;
+						margin-right:0vw;
+						}
+					
+					#mliButtonsM{
+					display: flex;
+					position:fixed;
+					flex-direction:column;
+					align-items:flex-end;
+					list-style-type:none;
+					padding-left:0vw;
+					padding-right:8vw;
+					margin-top:-3vw;
+					margin-right:-20vw;
+					background-color:rgba(70, 33, 91, 1);
+					width:40vw;
+					height:100vh;
+					justify-content: space-evenly;
+					box-shadow: 0 0 1vw 0vw rgba(70,33,91,0.5);
+					font-size:3.556vw;
+					}
+						#mliButtonsM li{
+						display:flex;
+						flex-direction:column;
+						align-items:center;
+						position:relative;
+						width:34vw;						
+						margin-top:0vw;
+						cursor:pointer;
+						}
+							#mliButtonsM a{
+							display:block;
+							font-family:'Mandala';
+							font-size:5vw;
+							letter-spacing:0.3vw;
+							color:rgb(255,229,178);
+							padding-top:1.5vw;
+							padding-bottom:1.5vw;
+							}
+							#ajttitem{color:#fff!important;}
+			
 			#content{
 			display:block;
 			position:absolute;
@@ -234,7 +310,10 @@ display:none;
 							}
 								#hWheelSVGg{}
 					#auText{
+					margin-top:2vw;
 					width:80vw;
+					font-size:2.7vw;
+					font-weight:300;
 					color:#ffffff;
 					}
 	
