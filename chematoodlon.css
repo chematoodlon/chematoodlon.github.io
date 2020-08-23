@@ -61,7 +61,7 @@ display:none;
 		}
 			#lsWheel{
 			display:block;
-			animation: lswRotate 10s infinite linear;
+			animation: lswRotate 5s infinite linear;
 			transform-origin:50% 50%;
 			}
 			@keyframes lswRotate{
@@ -74,7 +74,7 @@ display:none;
 			}
 			#lsClouds{
 			display:block;
-			animation: lscMove 1s infinite ease-out;
+			animation: lscMove 0.5s infinite ease-out;
 			}
 			@keyframes lscMove{
 				0%{
@@ -92,7 +92,7 @@ display:none;
 			}
 			#lsShip{
 			display:block;
-			animation: lssMove 2s infinite ease-in-out;
+			animation: lssMove 1s infinite ease-in-out;
 			}
 			@keyframes lssMove{
 				0%{
