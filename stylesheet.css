@@ -3,6 +3,9 @@ body{
 	scroll-behavior:smooth;
 	background-color:rgb(255,229,178);	
 }
+html{
+	scroll-behavior:smooth;
+}
 
 ::-webkit-scrollbar {
     display: none;
