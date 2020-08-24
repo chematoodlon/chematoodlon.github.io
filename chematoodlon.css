@@ -301,7 +301,7 @@ display:none;
 		width:100vw;
 		top:120vw;
 		z-index:3;
-		animation: bfMove 5s infinite linear;
+		animation: bfMove 4s infinite linear;
 		}
 		@keyframes bfMove{
 			0%{
@@ -434,7 +434,10 @@ display:none;
 				display:flex;
 				flex-direction:column;
 				list-style-type:none;
-				margin:0;
+				margin-top:0;
+				margin-left:0;
+				margin-right:0;
+				margin-bottom:10vw;
 				padding:0;
 				width:100vw;
 				align-items:center;
@@ -443,16 +446,17 @@ display:none;
 					display:flex;
 					align:center;
 					width:70vw;
-					color:#ffffff;
+					color:rgb(255,229,178);
 					font-family:'Mandala';
-					font-size:7vw;
-					letter-spacing:0.8vw;
+					font-size:9vw;
+					letter-spacing:1.5vw;
 					}
 						#hWheel{}
 							#hWheelSVG{
-							width:8vw;
-							height:8vw;
-							filter: grayscale(100%) contrast(100%) invert(100%);
+							width:10vw;
+							height:10vw;
+							margin-right:1.5vw;
+							
 							animation: hwRotate 20s infinite linear;
 							transform-origin:50% 50%;
 							}
