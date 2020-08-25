@@ -322,6 +322,16 @@ display:none;
 		left:30vw;
 		z-index:3;
 		}
+		#Volume{
+		display:block;
+		position:absolute;
+		top:5vw;
+		left:5vw;
+		width:7.5vw;
+		height:7.5vw;
+		z-index:10;
+		cursor:pointer;
+		}
 		#chLogotext{
 		display:flex;
 		flex-direction:column;
