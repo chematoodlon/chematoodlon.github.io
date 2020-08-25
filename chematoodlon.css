@@ -61,7 +61,7 @@ display:none;
 		}
 			#lsWheel{
 			display:block;
-			animation: lswRotate 10s infinite linear;
+			animation: lswRotate 20s infinite linear;
 			transform-origin:50% 50%;
 			}
 			@keyframes lswRotate{
