@@ -13,7 +13,7 @@ img, object, embed, video {
 
 *{-webkit-tap-highlight-color:rgba(0,0,0,0.1);}
 
-a, a:hover, a:visited, a.li:visited, a:focus, a:active, a:link{
+a, a:hover, a:visited, a:focus, a:active, a:link{
 cursor:pointer;
 color:inherit;
 outline:none;
