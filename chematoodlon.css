@@ -13,7 +13,7 @@ img, object, embed, video {
 
 *{-webkit-tap-highlight-color:rgba(0,0,0,0.1);}
 
-a, a:hover, a:visited, a:focus, a:active, a:link{
+a, a:hover, a:visited, a.li:visited, a:focus, a:active, a:link{
 cursor:pointer;
 color:inherit;
 outline:none;
@@ -428,17 +428,17 @@ display:none;
 			#content{
 			display:block;
 			position:absolute;
-			top:198vw;
+			top:182.5vw;
 			}
 				#aboutUs{
 				display:flex;
 				flex-direction:column;
 				list-style-type:none;
-				margin-top:0;
-				margin-left:0;
-				margin-right:0;
-				margin-bottom:10vw;
-				padding:0;
+				margin:0;
+				padding-top:17.5vw;
+				padding-left:0;
+				padding-right:0;
+				padding-bottom:10vw;
 				width:100vw;
 				align-items:center;
 				}
@@ -455,8 +455,7 @@ display:none;
 							#hWheelSVG{
 							width:10vw;
 							height:10vw;
-							margin-right:1.5vw;
-							
+							margin-right:1.5vw;							
 							animation: hwRotate 20s infinite linear;
 							transform-origin:50% 50%;
 							}
@@ -479,6 +478,284 @@ display:none;
 					font-weight:300;
 					color:#ffffff;
 					}
+					
+				#sectionBreak1{
+				display:block;				
+				}
+					#sectionBreak1IMG{
+					margin-top:7.5vw;
+					animation: sb1Move 50s infinite linear;
+					}
+					@keyframes sb1Move{
+						0%{
+							transform: scale(2,2) translate(-25vw,0vw);
+						}
+						50%{
+							transform: scale(2,2) translate(25vw,0vw);
+						}
+						100%{
+							transform: scale(2,2) translate(-25vw,0vw);
+						}
+					}
+				
+				#Theme{
+				display:flex;
+				flex-direction:column;
+				list-style-type:none;
+				margin:0;
+				padding-top:17.5vw;
+				padding-left:0;
+				padding-right:0;
+				padding-bottom:27vw;
+				width:100vw;
+				background-color:#5b2137;
+				align-items:center;
+				}
+					#thheading{
+					display:flex;
+					align-items:flex-start;
+					width:70vw;
+					color:rgb(255,229,178);
+					font-family:'Mandala';
+					font-size:9vw;
+					letter-spacing:1.5vw;
+					}
+					#hAnchor{}
+						#hAnchorSVG{
+						width:8vw;
+						margin-right:1.5vw;												
+						animation: haMove 5s infinite linear;
+						}
+						@keyframes haMove{
+							0%{
+								transform: translate(0vw,-1.5vw);
+							}
+							50%{
+								transform: translate(0vw,1vw);
+							}
+							100%{
+								transform: translate(0vw,-1.5vw);
+							}
+						}
+					#thText{
+					margin-top:2vw;
+					width:70vw;
+					font-size:2.7vw;
+					font-style:normal;
+					letter-spacing:0.2vw;
+					line-height:3.7vw;
+					font-weight:300;
+					color:#ffffff;
+					}
+					
+					#sectionBreak2{
+					display:block;					
+					}
+						#sectionBreak2IMG{
+						margin-top:-10vw;
+						animation: sb2Move 50s infinite linear;
+						}
+						@keyframes sb2Move{
+							0%{
+								transform: scale(2,2) translate(25vw,0vw);
+							}
+							50%{
+								transform: scale(2,2) translate(-25vw,0vw);
+							}
+							100%{
+								transform: scale(2,2) translate(25vw,0vw);
+							}
+						}
+						
+				#embarkOn{
+				display:flex;
+				flex-direction:column;
+				list-style-type:none;
+				margin:0;
+				padding-top:17.5vw;
+				padding-left:0;
+				padding-right:0;
+				padding-bottom:30vw;
+				width:100vw;
+				background-color:#215b4b;
+				align-items:center;
+				}
+					#eoheading{
+					display:flex;
+					align-items:flex-start;
+					width:70vw;
+					color:rgb(255,229,178);
+					font-family:'Mandala';
+					font-size:9vw;
+					letter-spacing:1.5vw;
+					}
+					#hShipF{}
+						#hShipFSVG{
+						width:10vw;
+						margin-top:-5vw;
+						margin-left:0.3vw;
+						margin-right:0.3vw;												
+						}
+							#hsfCloud{
+							animation: hsfcMove 2s infinite ease-out;
+							}
+							@keyframes hsfcMove{
+								0%{
+									transform: translate(47vw,2vw) scale(1,1);
+									opacity:100%;
+									
+								}
+								75%{
+									opacity:75%;
+								}
+								100%{
+									transform: translate(53vw,-22vw) scale(1.1,1.1);
+									opacity:0%;
+								}
+							}
+							#hsfShip{
+							animation: hsfsMove 5s infinite linear;
+							}
+							@keyframes hsfsMove{
+							0%{
+								transform: scale(1,1) translate(50vw,0vw);
+							}
+							50%{
+								transform: scale(1.1,1.1) translate(45vw,0vw);
+							}
+							100%{
+								transform: scale(1,1) translate(50vw,0vw);
+							}
+						}
+					#eoText{
+					margin-top:2vw;
+					width:70vw;
+					font-size:2.7vw;
+					font-style:normal;
+					letter-spacing:0.2vw;
+					line-height:3.7vw;
+					font-weight:300;
+					color:#ffffff;
+					}
+				
+				#sectionBreak3{
+				display:block;					
+				}
+					#sectionBreak3IMG{
+					margin-top:-20vw;
+					animation: sb3Move 50s infinite linear;
+					}
+					@keyframes sb3Move{
+						0%{
+							transform: scale(2,2) translate(-25vw,0vw);
+						}
+						50%{
+							transform: scale(2,2) translate(25vw,0vw);
+						}
+						100%{
+							transform: scale(2,2) translate(-25vw,0vw);
+						}
+					}
+				#footer{
+				display:block;			
+				list-style-type:none;
+				width:100vw;
+				height:70vw;
+				background-color:rgb(70, 33, 91);
+				margin:0%;
+				padding-left:0vw;
+				padding-right:0vw;
+				padding-top:5vw;
+				color:#ffffff;
+				padding-bottom:5vw;
+				}
+					#logoBottom{
+					display:block;
+					float:left;
+					margin-top:14.5vw;
+					margin-left:15vw;
+					margin-right:15vw;
+					width:30vw;
+					color:rgb(255,229,178);
+					text-align:center;
+					font-family:"Mandala";
+					font-size:3.6vw;
+					}
+					#middleListBottom{
+					display:block;
+					float:right;
+					margin-top:8vw;
+					margin-right:15vw;					
+					}
+						.mlbItem{
+						display:block;
+						margin-bottom:3vw;
+						font-size:2.75vw;
+						width:25vw;
+						}						
+						#bottomMenuDividerM{
+						display:block;
+						float:right;
+						width:25vw;
+						margin-right:-25vw;
+						margin-top:34vw;
+						height:0.3906vw;
+						background-color:rgb(255,229,178);
+						}	
+						
+					#middleListRight{
+					display:block;					
+					float:right;
+					margin-top:37.316vw;
+					margin-right:-25vw;		
+					}
+						.mlrItem{
+						display:block;
+						margin-bottom:3vw;
+						font-size:2.75vw;
+						width:25vw;
+						color:#FFFFFF;
+						}
+						#fbIcon{
+						padding-top:1vw;
+						width:6.5vw;
+						}
+			#creditsLove{
+			display:block;			
+			color:rgb(255,229,178);
+			font-size:2.5vw;
+			font-weight:300;
+			letter-spacing:0.2vw;
+			padding-top:2vw;
+			padding-left-right:0vw;
+			padding-bottom:9vw;
+			text-align: center;	
+			}
+				#loveImg{
+				width:4vw;
+				}	
+			
+			#sectionBreak4{
+			display:block;						
+			}
+				#sectionBreak4IMG{
+				display:block;
+				margin-top:-5vw;
+				animation: sb4Move 50s infinite linear;
+				}
+				@keyframes sb4Move{
+					0%{
+						transform: scale(2,2) translate(25vw,0vw);
+					}
+					50%{
+						transform: scale(2,2) translate(-25vw,0vw);
+					}
+					100%{
+						transform: scale(2,2) translate(25vw,0vw);
+					}
+				}			
+					
+				
 	
 	
 	
