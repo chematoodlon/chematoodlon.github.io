@@ -1,17 +1,20 @@
 var by = document.getElementsByTagName('body')[0];
 var lr = document.getElementById("loader");
 
-var n,lt;
+var n,lt, wiw;
 window.onload = function(){	
 	lt = new Date().getTime() - window.performance.timing.navigationStart;
+	wiw=window.innerWidth;
+	console.log(wiw);	
 	one();
 }
 function one(){
+		if(wiw<=768){
 		lr.style.opacity="0";
-		by.style.backgroundColor="#46215B";
+		by.style.backgroundColor="#46215B";		
 		setTimeout(function(){
 			lr.style.display="none";
-		},2000);
+		},2000);}
 }
 
 
