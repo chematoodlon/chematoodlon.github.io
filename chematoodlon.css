@@ -791,10 +791,12 @@ display:none;
 
 	#loader{
 	display:flex;
+	position:fixed;
 	width: 100vw;
 	height: 100vh;
 	justify-content:center;
 	background: center no-repeat rgb(255,229,178);
+	z-index:9999;
 	}
 
 		#loaderSVG{
@@ -847,5 +849,13 @@ display:none;
 					transform: translate(0,0) scale(1,1);					
 				}
 			}
+	#loaderMessage{
+	position:absolute;
+	top:600px;
+	margin-top:10vw;
+	text-align:center;
+	font-size:1.5vw;
+	line-height:2.3vw;
+	}
 	
 }
